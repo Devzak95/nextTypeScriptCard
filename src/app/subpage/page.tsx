@@ -25,10 +25,9 @@ const page = () => {
 
   // Oprette funktion med tailwind værdier
   const backgroundColors: { [paramId: number]: string } = {
-    0: "bg-whatwedo-bg-blue", // Side med id=0 får rød baggrund
+    0: "bg-whatwedo-bg-blue", // Side med id=0 får blå baggrund
     1: "bg-maintainable-bg-blue", // Side med id=1 får blå baggrund
-    2: "bg-getintouch-bg-orange", // Side med id=2 får grøn baggrund
-    // 3: "bg-yellow-500", // Side med id=3 får gul baggrund
+    2: "bg-getintouch-bg-orange", // Side med id=2 får orange baggrund
   };
 
   const titleTextColors: { [paramId: number]: string } = {
